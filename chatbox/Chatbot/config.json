@@ -1,0 +1,18 @@
+{
+    "__author__": "qhduan@memect.co",
+    "buckets": [
+        [5, 15],
+        [10, 20],
+        [20, 30],
+        [40, 50]
+    ],
+    "size": 512,
+    "depth": 4,
+    "dropout": 0.8,
+    "batch_size": 512,
+    "random_state": 0,
+    "learning_rate": 0.0001,
+    "epoch": 240,
+    "train_device": "/gpu:4",
+    "test_device": "/gpu:4"
+}
